@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>Formulario en Html</h1>
+    <form action ="." oninput="range_control_value.value = range_control.valueAsNumber">
+    <p>Nombre:<input type ="text" name="name_control" autofocus="required"/></p>
+    <p>Apellido:<input type ="text" name ="lastname_control" autofocus="required"/></p>
+    <p>Telefono:<input type ="tel" name="tel_control"/></p>
+    <p>Elige tu bebida Favorita <select name="select">
+       <option value="value1">Agua</option>
+       <option value="value2">Refresco</option>
+       <option value="value3">Café</option>
+      </select></p>
+    <p>Email:<input type="email" name="email_control" placeholder="Escribe tu direccion de correo"/></p>
+    <p>Contraseña:<input type ="password" name ="contraseña" value ="valor por defecto" size="16" maxlength="16"/></p>
+    <p><input type ="submit" value ="Submit!"/></p>
+   </form>
+  </body>
+</html>
